@@ -37,6 +37,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    scroll-behavior: smooth;
 }
 
 nav ul li a:hover {
@@ -45,11 +46,12 @@ nav ul li a:hover {
 
 section {
     width: 80%;
-    margin: 140px auto 20px; /* Increased margin-top to prevent header overlap */
+    margin: 160px auto 20px; /* Adjusted for better spacing */
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 100px; /* Ensures sections align correctly when linked */
 }
 
 h2 {
