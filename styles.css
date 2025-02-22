@@ -45,7 +45,7 @@ nav ul li a:hover {
 
 section {
     width: 80%;
-    margin: 100px auto 20px;
+    margin: 140px auto 20px; /* Increased margin-top to prevent header overlap */
     background: #fff;
     padding: 20px;
     border-radius: 8px;
